@@ -1,0 +1,23 @@
+{
+  "name": "frago9876543210/mc-protocols",
+  "require": {
+	"php": ">=7.2.0RC3",
+	"ext-sockets": "*",
+	"ext-json": "*",
+	"ext-mbstring": "*",
+	"pocketmine/pocketmine-binaryutils": "dev-master#a7cd5303a3b215d26bf9be76682ce9311f40e887"
+  },
+  "autoload": {
+	"psr-4": {
+	  "": [
+		"src"
+	  ]
+	}
+  },
+  "repositories": [
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/pmmp/PocketMine-BinaryUtils"
+	}
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "86969ab2efe0c7b4942df173d8e381fe",
+    "packages": [
+        {
+            "name": "pocketmine/pocketmine-binaryutils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/PocketMine-BinaryUtils.git",
+                "reference": "a7cd5303a3b215d26bf9be76682ce9311f40e887"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/PocketMine-BinaryUtils/zipball/a7cd5303a3b215d26bf9be76682ce9311f40e887",
+                "reference": "a7cd5303a3b215d26bf9be76682ce9311f40e887",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\utils\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Classes and methods for conveniently handling binary data",
+            "support": {
+                "source": "https://github.com/pmmp/PocketMine-BinaryUtils/tree/master",
+                "issues": "https://github.com/pmmp/PocketMine-BinaryUtils/issues"
+            },
+            "time": "2018-01-14T18:53:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "php": 5,
+        "pocketmine/pocketmine-binaryutils": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.0RC3",
+        "ext-sockets": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": []
+}
