@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "86969ab2efe0c7b4942df173d8e381fe",
+    "content-hash": "6d8676745b2ac291c2495e1d9400f1e2",
     "packages": [
         {
             "name": "pocketmine/pocketmine-binaryutils",
