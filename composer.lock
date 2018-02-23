@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d8676745b2ac291c2495e1d9400f1e2",
+    "content-hash": "f0eda37f6931b16d0de2f621119488c5",
     "packages": [
         {
             "name": "pocketmine/pocketmine-binaryutils",
@@ -51,9 +51,7 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.2.0RC3",
-        "ext-sockets": "*",
-        "ext-json": "*",
-        "ext-mbstring": "*"
+        "ext-sockets": "*"
     },
     "platform-dev": []
 }
