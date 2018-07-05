@@ -6,13 +6,13 @@ The recommended way to install this is the composer.
 ```json
 {
   "require": {
-	"pocketmine/pocketmine-binaryutils": "dev-master",
+	"pocketmine/binaryutils": "^0.1.0",
 	"frago9876543210/mc-protocols": "dev-master"
   },
   "repositories": [
 	{
 	  "type": "vcs",
-	  "url": "https://github.com/pmmp/PocketMine-BinaryUtils"
+	  "url": "https://github.com/pmmp/BinaryUtils"
 	},
 	{
 	  "type": "vcs",
